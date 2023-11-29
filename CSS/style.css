@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul, li {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.babes {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+@media screen and (max-width: 375px) {
+  header .hero h1 {
+    font-size: 50px;
+  }
+  header .hero p {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=style.css.map */
